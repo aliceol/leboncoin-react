@@ -1,0 +1,122 @@
+.offer-heart {
+  margin-bottom: 50px;
+}
+
+.offer-info {
+  height: fit-content;
+  padding-bottom: 50px;
+}
+
+.image-container {
+  background-color: #f7f6f4;
+  width: 100%;
+  position: relative;
+}
+
+.offer-image {
+  object-fit: contain;
+}
+
+.image-container-empty {
+  width: 100%;
+  height: 400px;
+  background-color: #f7f6f4;
+}
+
+.arrow {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  background-color: grey;
+  color: white;
+  font-size: 20px;
+  opacity: 0.3;
+}
+
+.arrow:hover {
+  opacity: 0.6;
+}
+
+.previous-button {
+  position: absolute;
+  left: 20px;
+  top: 200px;
+}
+
+.next-button {
+  position: absolute;
+  right: 20px;
+  top: 200px;
+}
+
+.offer-title-and-price {
+  background-color: white;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.offer-price {
+  margin-top: 10px;
+  color: #f36b36;
+}
+
+.description {
+  margin-bottom: 20px;
+}
+
+.user-info {
+  background-color: white;
+  box-sizing: border-box;
+  padding: 20px;
+  height: fit-content;
+  width: 350px;
+  margin-left: 20px;
+  font-weight: 800;
+}
+
+.user-icon {
+  color: white;
+  background-color: #fca335;
+  border-radius: 50%;
+  box-sizing: border-box;
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
+  font-size: 50px;
+}
+
+.circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.user-icon-white {
+  color: white;
+  background-color: #fca335;
+  border-radius: 50%;
+  box-sizing: border-box;
+  padding: 5px;
+  height: 55px;
+  border-radius: 27px;
+}
+
+.user-phone {
+  margin-top: 10px;
+  background-color: #f36b36;
+  padding: 10px;
+  border-radius: 3px;
+  color: white;
+  text-align: center;
+}
+
+.fa-phone {
+  transform: scaleX(-1);
+}
+
+.user-phone:hover {
+  background-color: #f18151;
+  cursor: pointer;
+}

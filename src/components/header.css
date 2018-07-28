@@ -1,0 +1,41 @@
+/* HEADER */
+.header {
+  background-color: #f36b36;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.nav-list {
+  height: 100%;
+  color: white;
+}
+
+#logo {
+  height: 25px;
+  margin-right: 10px;
+}
+
+.header-button {
+  height: 100%;
+  padding: 0 10px;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.header-button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.header-button-border {
+  border-left: solid white 1px;
+}
+
+.header-button-border:last-of-type {
+  border-right: solid white 1px;
+}

@@ -1,0 +1,100 @@
+h2 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  background-color: #e6e6e6;
+  padding: 20px 0;
+  height: 100px;
+}
+
+.sort {
+  height: 40px;
+}
+
+.inline-text {
+  margin-right: 10px;
+}
+
+.nav-button {
+  flex: 1;
+  margin: 10px;
+  background-color: #a8a8a8;
+  border: solid 1px grey;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.search-button {
+  background-color: #4485d8;
+  padding: 10px 50px;
+  margin-left: 20px;
+  font-size: 14px;
+  border-radius: 3px;
+  color: white;
+  font-weight: 800;
+}
+
+.search-button:hover {
+  background-color: #5096ec;
+  cursor: pointer;
+}
+
+.ad-list {
+  width: 100%;
+  margin: 50px 0;
+}
+.ad-box {
+  background-color: white;
+  border-top: solid 1px #cccccc;
+  border-right: solid 1px #cccccc;
+  border-left: solid 1px #cccccc;
+  height: fit-content;
+  width: 100%;
+}
+
+.ad-box:last-of-type {
+  border-bottom: solid 1px #cccccc;
+}
+
+.image-box {
+  height: 150px;
+  width: 150px;
+  margin: 20px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.ad-image {
+  height: 150px;
+  width: 150px;
+  background: url("/Placeholder.png") center;
+  background-size: cover;
+}
+
+.offer-image {
+  height: 150px;
+}
+
+.box-content {
+  padding: 15px;
+}
+
+.title {
+  color: #5880a6;
+  font-weight: 800;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.price {
+  color: #f36b36;
+  font-weight: 800;
+  font-size: 20px;
+}

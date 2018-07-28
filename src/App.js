@@ -8,6 +8,7 @@ import LogIn from "./containers/LogIn";
 import Profile from "./containers/Profile";
 import Offer from "./containers/Offer";
 import Header from "./components/Header";
+import Publish from "./containers/Publish";
 
 class App extends Component {
   state = {
@@ -64,6 +65,10 @@ class App extends Component {
           <Route
             path="/profile/:id"
             render={props => <Profile {...props} user={user} />}
+          />
+          <Route
+            path="/publish"
+            render={props => <Publish {...props} user={user} />}
           />
           <Route
             path="/offer/:id"

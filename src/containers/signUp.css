@@ -1,0 +1,102 @@
+h3 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.create-account-box {
+  background-color: white;
+  margin: 50px 0;
+  padding: 20px 50px;
+  height: fit-content;
+}
+
+.create-account {
+  margin-bottom: 50px;
+}
+
+.blue-icon {
+  color: #4585d4;
+  font-size: 50px;
+  min-width: 100px;
+  height: 100%;
+}
+
+.advantages {
+  margin: 0 20px 30px 0;
+}
+
+.advantages-title {
+  margin-bottom: 15px;
+}
+
+.hr-create-account {
+  border: 0;
+  height: 3px;
+  background-color: #f36b36;
+  margin-bottom: 10px;
+}
+
+.create-account-title {
+  text-align: center;
+}
+
+.sign-up-label {
+  font-weight: 700;
+  margin: 15px 0 10px 0;
+}
+
+.form-line {
+  width: 100%;
+  height: 50px;
+}
+
+.form-box {
+  flex: 1;
+  background-color: white;
+  border: solid 1px #cccccc;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.passwords {
+  height: fit-content;
+}
+
+.password-line {
+  width: 49%;
+  margin-bottom: 15px;
+}
+
+.checkbox-label {
+  padding-left: 15px;
+}
+
+.checkbox-line {
+  margin: 10px 0;
+}
+
+.validate-sign-up {
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  color: white;
+  background-color: #4585d4;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.validate-sign-up:hover {
+  cursor: pointer;
+  background-color: #5096ec;
+}
+
+.gen-cond-hightlight {
+  font-weight: 700;
+  color: #4585d4;
+}
+
+.gen-cond-hightlight:hover {
+  color: #5096ec;
+  cursor: pointer;
+}

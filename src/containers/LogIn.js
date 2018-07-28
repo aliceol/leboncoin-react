@@ -26,17 +26,11 @@ class LogIn extends React.Component {
         password: this.state.password
       })
       .then(response => {
-        // console.log(response.data);
-        // {
-        //   account: { username: "Farid" },
-        //   token: "Ii0HYfXTN7L2SMoL",
-        //   _id: "5b4ceb668c2a9a001440b2fb"
-        // };
-
         if (response.data && response.data.token) {
           this.props.setUser({
             token: response.data.token,
-            _id: response.data._id
+            _id: response.data._id,
+            username: response.data.account.username
           });
 
           this.props.history.push(`/profile/ + ${response.data._id}`);
@@ -49,6 +43,8 @@ class LogIn extends React.Component {
   };
 
   render() {
+    console.log(this.props.location);
+    console.log(this.props.history);
     return (
       <React.Fragment>
         <form onSubmit={this.onSubmit} className="form form-signup">
