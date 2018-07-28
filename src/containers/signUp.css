@@ -40,7 +40,7 @@ h3 {
   text-align: center;
 }
 
-.sign-up-label {
+.form-label {
   font-weight: 700;
   margin: 15px 0 10px 0;
 }
@@ -51,12 +51,12 @@ h3 {
 }
 
 .form-box {
-  flex: 1;
   background-color: white;
   border: solid 1px #cccccc;
   padding: 10px;
   border-radius: 3px;
   font-size: 14px;
+  height: fit-content;
 }
 
 .passwords {

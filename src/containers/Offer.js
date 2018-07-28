@@ -43,7 +43,7 @@ class Offer extends React.Component {
                       className="previous-button"
                       onClick={this.decrementImage}
                     >
-                      <i class="fas fa-chevron-left d-flex arrow a-i-center j-c-center" />
+                      <i className="fas fa-chevron-left d-flex arrow a-i-center j-c-center" />
                     </button>
                   ) : (
                     ""

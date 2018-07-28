@@ -1,0 +1,58 @@
+.publication-box {
+  border: solid 1px grey;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.your-offer {
+  box-sizing: border-box;
+  font-size: 18px;
+  padding: 5px 15px;
+  color: white;
+  font-weight: 600;
+}
+
+.description-input {
+  height: 300px;
+  resize: none;
+}
+
+.publish-content {
+  padding-left: 15px;
+}
+
+.validate-publish {
+  width: fit-content;
+  padding: 10px 75px;
+  border-radius: 3px;
+  color: white;
+  background-color: #4585d4;
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 100px;
+}
+
+.publish-pictures {
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+.pictures-list {
+  flex-wrap: wrap;
+}
+
+.upload-pictures {
+  width: fit-content;
+  padding: 10px 75px;
+  border-radius: 3px;
+  color: white;
+  background-color: #aaaaaa;
+  font-weight: 700;
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+.upload-pictures:hover {
+  background-color: #bbbbbb;
+}

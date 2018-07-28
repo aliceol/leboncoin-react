@@ -103,7 +103,7 @@ class SignUp extends React.Component {
               <h3 className="create-account-title">Créez un compte</h3>
               <hr className="hr-create-account" />
               <div className="create-account-content d-flex f-d-ver">
-                <label className="sign-up-label" htmlFor="username">
+                <label className="form-label" htmlFor="username">
                   Pseudo
                 </label>
                 <input
@@ -114,7 +114,7 @@ class SignUp extends React.Component {
                   onChange={this.handleChange}
                   className="flex-1 form-box"
                 />
-                <label className="sign-up-label" htmlFor="email">
+                <label className="form-label" htmlFor="email">
                   Adresse email
                 </label>
                 <input
@@ -128,7 +128,7 @@ class SignUp extends React.Component {
 
                 <div className="passwords form-line d-flex j-c-sb">
                   <div className="d-flex f-d-ver password-line">
-                    <label className="sign-up-label" htmlFor="password">
+                    <label className="form-label" htmlFor="password">
                       Mot de passe
                     </label>
 
@@ -142,7 +142,7 @@ class SignUp extends React.Component {
                     />
                   </div>
                   <div className="d-flex f-d-ver password-line">
-                    <label className="sign-up-label " htmlFor="password2">
+                    <label className="form-label " htmlFor="password2">
                       Confirmer le mot de passe
                     </label>
                     <input

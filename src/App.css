@@ -65,10 +65,18 @@ select {
   height: 100%;
 }
 
+.w-100 {
+  width: 100%;
+}
+
 .p-t-30 {
   padding-top: 30px;
 }
 
 .box-shadow {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.background-grey {
+  background-color: #666666;
 }

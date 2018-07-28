@@ -1,6 +1,6 @@
 .imagePreview {
-  width: 100px;
-  height: 100px;
+  width: 110px;
+  height: 110px;
   position: relative;
 }
 
@@ -13,7 +13,7 @@
 
 .remove-btn {
   position: absolute;
-  right: 0;
+  right: 10px;
   top: 0;
   background-color: white;
   padding: 3px;

@@ -122,7 +122,7 @@ class Home extends React.Component {
           >
             <div className="form-line d-flex j-c-sb a-i-center">
               <input
-                className="form-box"
+                className="form-box flex-1"
                 type="text"
                 name="title"
                 placeholder="Que recherchez-vous ?"
@@ -138,7 +138,7 @@ class Home extends React.Component {
             <div className="form-line d-flex j-c-sb a-i-center">
               <span className="inline-text">Prix entre</span>
               <input
-                className="form-box"
+                className="form-box flex-1"
                 type="text"
                 name="priceMin"
                 placeholder="Prix min"
@@ -148,7 +148,7 @@ class Home extends React.Component {
               <span className="inline-text"> € et</span>
               <input
                 type="text"
-                className="form-box"
+                className="form-box flex-1"
                 name="priceMax"
                 placeholder="Prix max"
                 value={this.state.priceMax}
@@ -158,7 +158,7 @@ class Home extends React.Component {
               <select
                 onChange={this.handleChange}
                 name="sort"
-                className="form-box sort"
+                className="form-box  flex-1 sort"
               >
                 <option value="date-desc">Plus récentes</option>
                 <option value="date-asc">Plus anciennes</option>
