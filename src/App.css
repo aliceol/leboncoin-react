@@ -69,6 +69,14 @@ select {
   width: 100%;
 }
 
+.w-80 {
+  width: 80%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
 .p-t-30 {
   padding-top: 30px;
 }
